@@ -12,9 +12,9 @@ body {
   margin: 0;
   font-family: var(--font-primary);
   color: var(--text-color);
-  background: rgba(18, 18, 18, 0.8); /* Fundo semi-transparente */
+  background: rgba(18, 18, 18, 0.8);
   overflow-x: hidden;
-  background-image: url('assets/па.gif'); /* Caminho do GIF */
+  background-image: url('assets/па.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background: rgba(18, 18, 18, 0.7); /* Aumentei a transparência aqui */
+  background: rgba(18, 18, 18, 0.7);
   backdrop-filter: blur(15px);
   position: sticky;
   top: 0;
@@ -67,16 +67,16 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 80px 20px; /* Aumentei o padding para aumentar a altura */
-  background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  padding: 80px 20px;
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 25px;
   box-shadow: 0 8px 15px rgba(59, 51, 51, 0.205);
-  margin: 20px auto; /* Centraliza o hero na página */
+  margin: 20px auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  z-index: 1; /* Garante que o conteúdo fique acima do GIF */
-  width: 700px; /* Largura fixa para o quadrado */
-  max-width: 90%; /* Garante que não ultrapasse a largura da tela em dispositivos menores */
-  min-height: 500px; /* Altura mínima para garantir que o hero não fique muito baixo */
+  z-index: 1;
+  width: 700px;
+  max-width: 90%;
+  min-height: 500px;
 }
 
 .hero:hover {
